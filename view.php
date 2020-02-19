@@ -115,7 +115,7 @@ if ($timenow > $timestart) {
             echo journal_format_entry_text($entry, $course, $cm);
         }
     } else {
-        echo '<span class="warning">'.get_string('notstarted', 'journal').'</span>';
+        echo '<span class="warning m-l-1">'.get_string('notstarted', 'journal').'</span>';
     }
 
     echo $OUTPUT->box_end();
